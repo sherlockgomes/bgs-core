@@ -1,4 +1,4 @@
-package org.java_websocket.client;
+package com.red_folder.phonegap.plugin.backgroundservice;
 
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;

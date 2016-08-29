@@ -1,4 +1,4 @@
-package com.red_folder.phonegap.plugin.backgroundservice.handshake;
+package com.red_folder.phonegap.plugin.backgroundservice;
 
 import java.util.Iterator;
 

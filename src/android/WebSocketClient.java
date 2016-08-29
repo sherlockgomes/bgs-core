@@ -1,4 +1,4 @@
-package com.red_folder.phonegap.plugin.backgroundservice.client;
+package com.red_folder.phonegap.plugin.backgroundservice;
 
 import java.io.IOException;
 import java.io.InputStream;

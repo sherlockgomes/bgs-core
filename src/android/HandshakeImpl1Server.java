@@ -1,4 +1,4 @@
-package com.red_folder.phonegap.plugin.backgroundservice.handshake;
+package com.red_folder.phonegap.plugin.backgroundservice;
 
 public class HandshakeImpl1Server extends HandshakedataImpl1 implements ServerHandshakeBuilder {
 	private short httpstatus;

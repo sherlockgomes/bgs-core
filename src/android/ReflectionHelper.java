@@ -3,17 +3,17 @@ package com.red_folder.phonegap.plugin.backgroundservice;
 import android.util.Log;
 
 public class ReflectionHelper {
-	
+
 	/*
 	 ************************************************************************************************
-	 * Static values 
+	 * Static values
 	 ************************************************************************************************
 	 */
 	public static final String TAG = ReflectionHelper.class.getSimpleName();
-	
+
 	public static Class<?> LoadClass(String className) {
 		Class<?> result = null;
-	
+
 		Log.d(TAG, "Attempting to load call: " + className);
 		ClassLoader classLoader = ReflectionHelper.class.getClassLoader();
 
@@ -24,7 +24,7 @@ public class ReflectionHelper {
 			Log.d(TAG, "Class failed to load");
 			Log.d(TAG, ex.getMessage());
 		}
-		
+
 		return result;
 	}
 }

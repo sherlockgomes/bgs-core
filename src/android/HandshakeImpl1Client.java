@@ -1,4 +1,4 @@
-package com.red_folder.phonegap.plugin.backgroundservice.handshake;
+package com.red_folder.phonegap.plugin.backgroundservice;
 
 public class HandshakeImpl1Client extends HandshakedataImpl1 implements ClientHandshakeBuilder {
 	private String resourceDescriptor = "*";
