@@ -1,4 +1,4 @@
-package org.java_websocket.handshake;
+package com.red_folder.phonegap.plugin.backgroundservice.handshake;
 
 import java.util.Iterator;
 

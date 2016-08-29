@@ -1,4 +1,4 @@
-package org.java_websocket.handshake;
+package com.red_folder.phonegap.plugin.backgroundservice.handshake;
 
 public interface ServerHandshakeBuilder extends HandshakeBuilder, ServerHandshake {
 	public void setHttpStatus( short status );
